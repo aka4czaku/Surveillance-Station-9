@@ -7,7 +7,7 @@ sleep 5
 cd /var/packages/SurveillanceStation/target/lib/
 cp ./libssutils.so ./libssutils.so_backup
 rm ./libssutils.so
-wget https://github.com/Kaitiz/Surveillance-Station/raw/main/lib/test/libssutils.so
+wget https://github.com/aka4czaku/Surveillance-Station-9/raw/main/lib/test/libssutils.so
 chown SurveillanceStation:SurveillanceStation ./libssutils.so
 chmod 0644 ./libssutils.so
 
